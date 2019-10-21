@@ -1,0 +1,21 @@
+.spec__second {
+  height: 970px;
+}
+.spec__second--info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.spec__second--info img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.spec__second--info span {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.spec__second .container {
+  max-width: 600px;
+  padding: 50px 0;
+}

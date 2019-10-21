@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="build/css/style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="src/css/slick.css">
+   <link rel="stylesheet" href="src/css/slick-theme.css">
+   <title>Noman</title>
+</head>
+
+<body>
+
+   <header class="header">
+      <div class="container">
+         <div class="header__name">
+            <span>noman.</span>
+            <div class="header__burger">
+               <i id="burger" class="fa fa-bars"></i>
+            </div>
+         </div>
+         <div class="header__main">
+            <h1>hi,</h1>
+            <h1>i'm abdullah noman</h1>
+            <h1>ui/ux designer.</h1>
+            <a href="#">
+               <p>read more <i class="fa fa-arrow-right"></i></p>
+            </a>
+         </div>
+         <div class="header__scroll">
+            <a class="header__scroll--link" href="#about"><img src="./src/img/scroll.png" alt="">
+               <p>scroll down</p>
+            </a>
+         </div>
+      </div>
+      <div class="header__menu">
+         <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="specialists.html">Our Specialists</a></li>
+            <li><a href="blog.html">Our Blog</a></li>
+         </ul>
+      </div>
+   </header>
+
+   <section class="about" id="about">
+      <div class="about__container">
+         <div class="about__main">
+            <div class="about__main--text">
+               <h2>About</h2>
+               <p>You should message me if You're looking for a something serious. I've done the short-term
+                  dating thing and no knock on it, but it's not for me. I'm looking for a genuine connection
+                  with someone that thinks it's okay to (occasoinally) eat dinner after midnight. Open to dinner
+                  suggestions.
+               </p>
+               <p>Have a nice day !</p>
+               <span>Follow on :-</span>
+               <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-f"></i></a>
+               <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+               <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+               <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+            </div>
+            <div class="about__main--img">
+               <img src="./src/img/about-img.png" alt="">
+            </div>
+         </div>
+         <div class="about__info">
+            <div class="about__info--strategic">
+               <img src="./src/img/about-strateg.png" alt="">
+               <h3>strategic</h3>
+               <p class="about__info--text">We will discuss the entire work plan in advance and only then proceed</p>
+            </div>
+            <div class="about__info--paint">
+               <img src="./src/img/about-paint.png" alt="">
+               <h3>designing</h3>
+               <p class="about__info--text">We draw the design in compliance with all world standards</p>
+            </div>
+            <div class="about__info--edit">
+               <img src="./src/img/about-edit.png" alt="">
+               <h3>branding</h3>
+               <p class="about__info--text">We correct and the design / website according to your requirements</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="number">
+      <div class="container">
+         <div class="number__main">
+            <div class="number__main--text">
+               <span>321</span>
+               <p>happy clint</p>
+            </div>
+            <div class="number__main--text">
+               <span>1K</span>
+               <p>project</p>
+            </div>
+            <div class="number__main--text">
+               <span>2L</span>
+               <p>cup coffi</p>
+            </div>
+            <div class="number__main--text">
+               <span>26L</span>
+               <p>cup tea</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section id="portfolio" class="portfolio">
+      <div class="container">
+         <div class="portfolio__info--menuFilter">
+            <h2>latest work</h2>
+            <ul class="portfolio__ul">
+               <a data-filter="*" class="portfolio__list" href="#">All</a>
+               <a data-filter=".Print" class="portfolio__list" href="#">
+                  <li>Print</li>
+               </a>
+               <a data-filter=".Web" class="portfolio__list" href="#">
+                  <li>Web</li>
+               </a>
+               <a data-filter=".Design" class="portfolio__list" href="#">
+                  <li>Design</li>
+               </a>
+               <a data-filter=".Illustration" class="portfolio__list" href="#">
+                  <li>Illustration</li>
+               </a>
+            </ul>
+         </div>
+
+         <div id="gallery1" class="portfolio__pictures">
+            <div class="pictures__elem Print">
+               <div class="portfolio__item">
+                  <img class="portfolio__elem--image" src="./src/img/portfolio-1.png" alt="">
+                  <div class="portfolio__block"><a>View more</a></div>
+               </div>
+            </div>
+            <div class="pictures__elem Illustration">
+               <div class="portfolio__item">
+                  <img class="portfolio__elem--image" src="./src/img/portfolio-2.png" alt="">
+                  <div class="portfolio__block"><a>View more</a></div>
+               </div>
+            </div>
+            <div class="pictures__elem Web">
+               <div class="portfolio__item">
+                  <img class="portfolio__elem--image" src="./src/img/portfolio-3.png" alt="">
+                  <div class="portfolio__block"><a>View more</a></div>
+               </div>
+            </div>
+            <div class="pictures__elem Design">
+               <div class="portfolio__item">
+                  <img class="portfolio__elem--image" src="./src/img/portfolio-4.png" alt="">
+                  <div class="portfolio__block"><a>View more</a></div>
+               </div>
+            </div>
+            <div class="pictures__elem Print">
+               <div class="portfolio__item">
+                  <img class="portfolio__elem--image" src="./src/img/portfolio-5.png" alt="">
+                  <div class="portfolio__block"><a>View more</a></div>
+               </div>
+            </div>
+            <div class="pictures__elem Design">
+               <div class="portfolio__item">
+                  <img class="portfolio__elem--image" src="./src/img/portfolio-6.png" alt="">
+                  <div class="portfolio__block"><a>View more</a></div>
+               </div>
+            </div>
+            <div class="pictures__elem Print">
+               <div class="portfolio__item">
+                  <img class="portfolio__elem--image" src="./src/img/portfolio-7.png" alt="">
+                  <div class="portfolio__block"><a>View more</a></div>
+               </div>
+            </div>
+            <div class="pictures__elem Web">
+               <div class="portfolio__item">
+                  <img class="portfolio__elem--image" src="./src/img/portfolio-8.png" alt="">
+                  <div class="portfolio__block">
+                     <a>View more</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="portfolio__more">
+            <a href="portfolio.html">View more <span>➜</span></a>
+         </div>
+      </div>
+   </section>
+
+   <section class="slider">
+      <div class="slider__main">
+         <div class="slider__main--photo">
+            <img src="./src/img/slider-photo2.png" alt="">
+            <p class="slider__main--name">Liam Nilsson</p>
+            <p class="slider__main--prof">Ceo, Apple</p>
+         </div>
+         <div class="slider__main--info">
+            <p class="slider__main--quotes">‘‘</p>
+            <p class="slider__main--text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+               nostrud exercitation ullamco.laboris nisi ut aliquip.
+            </p>
+         </div>
+         <div class="slider__main--photo">
+            <img src="./src/img/slider-photo3.png" alt="">
+            <p class="slider__main--name">Alex Cazares</p>
+            <p class="slider__main--prof">Developer</p>
+         </div>
+         <div class="slider__main--info">
+            <p class="slider__main--quotes">‘‘</p>
+            <p class="slider__main--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in rem harum
+               dolorem nesciunt.
+               Vitae dignissimos ipsum iusto quisquam blanditiis repellendus similique quibusdam deserunt
+               saepe officia, commodi excepturi, corrupti itaque.
+            </p>
+         </div>
+         <div class="slider__main--photo">
+            <img src="./src/img/slider-photo.png" alt="">
+            <p class="slider__main--name">Mahady Hasan</p>
+            <p class="slider__main--prof">Manager</p>
+         </div>
+         <div class="slider__main--info">
+            <p class="slider__main--quotes">‘‘</p>
+            <p class="slider__main--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint in rem harum
+               dolorem nesciunt.
+               Vitae dignissimos ipsum iusto quisquam blanditiis repellendus similique quibusdam deserunt
+               saepe officia, commodi excepturi, corrupti itaque.
+            </p>
+         </div>
+      </div>
+   </section>
+
+   <section class="blog">
+      <div class="container">
+         <div class="blog__main">
+            <div class="blog__main--block1">
+               <div class="blog__main--block1Text">
+                  <h2>Letest Blog</h2>
+                  <p class="blog__main--block1TextMore">Lorem ipsum dolor sit amet, consectetur adipi
+                     sicing elit, sed do eiusmod tempor incididunt ut
+                     labore et dolore magna aliqua.
+                  </p>
+                  <p class="blog__main--block1TextMore">Ut enim ad minim veniam, quis nostrud exercitation
+                     ullamco.laboris nisi aliquip</p>
+               </div>
+               <div class="blog__main--block1More">
+                  <div class="blog__main--blockOpacity">
+                     <img class="blog__main--photoScale" src="./src/img/blog-photo3.png" alt="">
+                  </div>
+                  <p class="blog__main--blockMoreText">How to becaume a successfull designer ?</p>
+                  <img class="blog__main--block1MoreTime" src="./src/img/blog-time.png" alt=""><span
+                     class="blog__main--block1MoreTimeSpan">8:56 PM</span>
+                  <img class="blog__main--block1MoreHeart" src="./src/img/heart.png" alt=""><span
+                     class="blog__main--block1MoreHeartSpan">1K</span>
+                  <p class="blog__main--block1TextPhoto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                     do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+               </div>
+            </div>
+            <div class="blog__main--block2">
+               <div class="blog__main--block2More">
+                  <div class="blog__main--blockOpacity">
+                     <img class="blog__main--photoScale" src="./src/img/blog-photo1.png" alt="">
+                  </div>
+                  <p class="blog__main--blockMoreText">How to drow ?</p>
+                  <img class="blog__main--block1MoreTime" src="./src/img/blog-time.png" alt=""><span
+                     class="blog__main--block1MoreTimeSpan">8:56 PM</span>
+                  <img class="blog__main--block1MoreHeart" src="./src/img/heart.png" alt=""><span
+                     class="blog__main--block1MoreHeartSpan">1K</span>
+                  <p class="blog__main--block1TextPhoto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                     do eiusmod tempor incididunt ut labore et dolore magna. </p>
+               </div>
+               <div class="blog__main--block2More-2">
+                  <div class="blog__main--blockOpacity">
+                     <img class="blog__main--photoScale" src="./src/img/blog-photo4.png" alt="">
+                  </div>
+                  <p class="blog__main--blockMoreText">be a creative people ?</p>
+                  <img class="blog__main--block1MoreTime" src="./src/img/blog-time.png" alt=""><span
+                     class="blog__main--block1MoreTimeSpan">8:56 PM</span>
+                  <img class="blog__main--block1MoreHeart" src="./src/img/heart.png" alt=""><span
+                     class="blog__main--block1MoreHeartSpan">1K</span>
+               </div>
+            </div>
+            <div class="blog__main--block3">
+               <div class="blog__main--block3More">
+                  <div class="blog__main--blockOpacity">
+                     <img class="blog__main--photoScale" src="./src/img/blog-photo2.png" alt="">
+                  </div>
+                  <p class="blog__main--blockMoreText">How to Sell a booka ?</p>
+                  <img class="blog__main--block1MoreTime" src="./src/img/blog-time.png" alt=""><span
+                     class="blog__main--block1MoreTimeSpan">8:56 PM</span>
+                  <img class="blog__main--block1MoreHeart" src="./src/img/heart.png" alt=""><span
+                     class="blog__main--block1MoreHeartSpan">1K</span>
+               </div>
+               <div class="blog__main--block3More-2">
+                  <div class="blog__main--blockOpacity">
+                     <img class="blog__main--photoScale" src="./src/img/blog-photo5.png" alt="">
+                  </div>
+                  <p class="blog__main--blockMoreText">How to drow ?</p>
+                  <img class="blog__main--block1MoreTime" src="./src/img/blog-time.png" alt=""><span
+                     class="blog__main--block1MoreTimeSpan">8:56 PM</span>
+                  <img class="blog__main--block1MoreHeart" src="./src/img/heart.png" alt=""><span
+                     class="blog__main--block1MoreHeartSpan">1K</span>
+                  <p class="blog__main--block1TextPhoto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                     do eiusmod tempor incididunt ut labore et dolore magna. </p>
+               </div>
+            </div>
+         </div>
+         <div class="blog__more">
+            <a href="blog.html">View more <span>➜</span></a>
+         </div>
+      </div>
+   </section>
+
+   <footer class="footer">
+      <div class="footer__container">
+         <div class="footer__contact">
+            <div class="footer__contact--text footer__contact--bottom">
+               <h2>Contact</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut </p>
+            </div>
+            <div class="footer__contact--email footer__contact--bottom">
+               <i class="fa fa-envelope"></i><span>E-mail Address</span>
+               <p><a class="footer__contact--link" href="">abdullah.123@gmail.com</a></p>
+               <p><a class="footer__contact--link" href="">mahadihan.59@gmail.com</a></p>
+            </div>
+            <div class="footer__contact--tel footer__contact--bottom">
+               <i class="fa fa-mobile"></i><span>Phone & Fax</span>
+               <p><a class="footer__contact--link" href="">+ 88 019 188 51 375</a></p>
+               <p><a class="footer__contact--link" href="">+ 88 019 188 51 375</a></p>
+            </div>
+         </div>
+         <form class="footer__form">
+            <div class="footer__form--main">
+               <div class="footer__form--message">
+                  <input required type="text" id="message" name="message" placeholder=" ">
+                  <label for="message">Type your message:</label>
+               </div>
+               <div class="footer__form--name">
+                  <input required type="text" id="name" name="name" placeholder=" ">
+                  <label for="name">Type your Name:</label>
+                  <div class="footer__form--subject">
+                     <input required type="text" id="subject" name="subject" placeholder=" ">
+                     <label for="subject">Type your Subject:</label>
+                  </div>
+               </div>
+            </div>
+            <input class="footer__send" type="submit" value="Send">
+         </form>
+      </div>
+   </footer>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+   <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+   <script src="src/js/slick.min.js"></script>
+   <script src="build/js/script.js"></script>
+</body>
+
+</html>
